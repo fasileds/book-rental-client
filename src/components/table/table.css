@@ -1,0 +1,25 @@
+.table-container {
+  margin-top: 10px;
+}
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tableFirst {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tableFirst input {
+  height: 30px;
+  width: 80vh;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(156, 156, 156);
+}
+.tableFirst input:focus {
+  border: none;
+  background-color: rgb(211, 211, 211);
+}
